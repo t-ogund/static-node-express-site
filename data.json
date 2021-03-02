@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "E-Commerce Store",
+            "description": "An e-commerce shopping cart",
+            "technologies": ["Bootstrap", "JavaScript"],
+            "live_link": "https://t-ogund.github.io/e-commerce-shoe-store/index.html",
+            "github_link": "https://github.com/t-ogund/e-commerce-shoe-store",
+            "image_urls": ["/static/images/e-commerce.jpg", "/static/images/e-comm-product-page.jpg", "/static/images/e-comm-summary-page.jpg"]
+        },
+        {
+            "id": 1,
+            "project_name": "TC Restaurant",
+            "description": "Modern Restaurant Website",
+            "technologies": ["Bootstrap", "JavaScript"],
+            "live_link": "https://t-ogund.github.io/restaurant-website/",
+            "github_link": "https://github.com/t-ogund/restaurant-website",
+            "image_urls": ["/static/images/restaurant.jpg", "/static/images/restaurant-reservation.jpg", "/static/images/restaurant-news.jpg"]
+        },
+        {
+            "id": 2,
+            "project_name": "Employee Directory",
+            "description": "Interactive Employee Directory using a third-party API",
+            "technologies": ["HTML", "CSS", "JavaScript", "AJAX"],
+            "live_link": "https://t-ogund.github.io/public-api-requests/",
+            "github_link": "https://github.com/t-ogund/public-api-requests",
+            "image_urls": ["/static/images/employee-directory.jpg", "/static/images/dynamic-filter.jpg", "/static/images/modal.jpg"]
+        },
+        {
+            "id": 3,
+            "project_name": "Interactive Form",
+            "description": "Interactive form with form validation",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://t-ogund.github.io/interactive-form-project-3/",
+            "github_link": "https://github.com/t-ogund/interactive-form-project-3",
+            "image_urls": ["/static/images/interactive-form.jpg", "/static/images/form-validation.jpg"]
+        },
+        {
+            "id": 4,
+            "project_name": "Guessing Game",
+            "description": "Guess the phrase before your lives run out!",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://t-ogund.github.io/oop-game-show-application/",
+            "github_link": "https://github.com/t-ogund/oop-game-show-application",
+            "image_urls": ["/static/images/oop.jpg", "/static/images/oop-guessed.jpg"]
+        }
+    ]
+}

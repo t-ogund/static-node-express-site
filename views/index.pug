@@ -1,0 +1,21 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    h1 Toye Ogundepo - Web Developer
+
+    p This project was built with Node.js and Express. It is a portfolio being used to display a few of my previous projects.
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+      //- loop through projects to display
+      each portfolioProject in portfolioProjects 
+        .cell
+          a(href=`/projects/${portfolioProject.id}`)
+            img.thumbnail(src=`${portfolioProject.image_urls[0]}`, alt=`Thumbnail ${portfolioProject.project_name}`)
+          h5= `${portfolioProject.project_name}`
+
+  

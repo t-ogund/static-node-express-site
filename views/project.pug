@@ -1,0 +1,36 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-projects
+    .inner-wrapper.flex-row-wrap.two-col
+      .project-info-box.box
+
+        h1= projectName
+       
+        p= projectDescription
+
+      .project-tech-links-box.box
+        h6 Technologies
+        ul
+          //- loop through and display technologies used
+          each technology in technologies 
+            li= technology
+            
+        a.btn-link(href=`${liveLink}`) Live Demo
+        a.btn-link(href=`${githubLink}`) GitHub Repo
+
+    .project-img-box.box
+      //- loop through and display additional project images
+      each project_image in project_images 
+        img.project-img(src=`${project_image}`)
+ 
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back
