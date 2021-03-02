@@ -2,21 +2,21 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "E-Commerce Store",
-            "description": "An e-commerce shopping cart",
-            "technologies": ["Bootstrap", "JavaScript"],
-            "live_link": "https://t-ogund.github.io/e-commerce-shoe-store/index.html",
-            "github_link": "https://github.com/t-ogund/e-commerce-shoe-store",
-            "image_urls": ["/static/images/e-commerce.jpg", "/static/images/e-comm-product-page.jpg", "/static/images/e-comm-summary-page.jpg"]
+            "project_name": "Pagination",
+            "description": "This project organizes a list of students with pagination functionality",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://t-ogund.github.io/data-pagination-filtering-project/",
+            "github_link": "https://github.com/t-ogund/data-pagination-filtering-project",
+            "image_urls": ["/static/images/pagination-main.jpg", "/static/images/pagination.jpg"]
         },
         {
             "id": 1,
-            "project_name": "TC Restaurant",
-            "description": "Modern Restaurant Website",
-            "technologies": ["Bootstrap", "JavaScript"],
-            "live_link": "https://t-ogund.github.io/restaurant-website/",
-            "github_link": "https://github.com/t-ogund/restaurant-website",
-            "image_urls": ["/static/images/restaurant.jpg", "/static/images/restaurant-reservation.jpg", "/static/images/restaurant-news.jpg"]
+            "project_name": "Random Quote Generator",
+            "description": "This project displays random quotes",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://t-ogund.github.io/techdegree-project-1/",
+            "github_link": "https://github.com/t-ogund/techdegree-project-1",
+            "image_urls": ["/static/images/jobs-quote.jpg", "/static/images/einstein-quote.jpg"]
         },
         {
             "id": 2,
